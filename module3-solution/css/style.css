@@ -1,0 +1,123 @@
+body
+{
+    font-size: 16px;
+    color:#fff;
+    background-color: lightcyan;
+}
+#main-head
+{
+    color: rgb(136, 16, 136);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    font-size:50px;
+}
+#header-nav
+{
+    background-color: #f6b319;
+    border-radius: 0;
+    border:2px solid black;
+}
+.navbar-brand
+{
+    padding-top:25px;
+}
+.navbar-brand h1
+{
+    font-family: 'Lora',serif;
+    color: #557c3e;
+    font-size:2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    line-height: .75;
+}
+
+#nav-list
+{
+    margin-top: 10px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar
+{
+    border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle
+{
+    clear:both;
+    margin-top: -55px;
+}
+#main-content
+{
+    color:black;
+    margin-top: 50px;
+    background-color:lightgray;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+#main-content h2
+{
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+/*    End of header         */
+
+@media (min-width:768px)
+{
+    .container
+    {
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
+    }
+    .navbar-brand
+    {
+        padding-top: 10px;
+        height: 100px;
+    }
+    .navbar-brand h1
+    {
+        margin-top: 27px;
+    }
+}
+@media (max-width:767px)
+{
+    #company-name
+    {
+        margin-left: 30px;
+    }
+    .navbar-brand
+    {
+        padding-top: 10px;
+        height: 80px;
+    }
+    .navbar-brand h1
+    {
+        padding-top: 10px;
+        font-size: 5vw;
+        margin-top: 8px;
+    }
+    #collapsable-nav
+    {
+        font-size: 1.2em;
+        background-color: yellow;
+        overflow: hidden;
+        border: 1px solid black;
+        border-top: 2px solid black;
+    }
+    #collapsable-nav li
+    {
+        padding: 10px;
+        border-bottom: 2px solid black;
+        color:black;
+    }
+    #collapsable-nav li:nth-child(3)
+    {
+        border-bottom: none;
+    }
+    #main-content
+    {
+        width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
